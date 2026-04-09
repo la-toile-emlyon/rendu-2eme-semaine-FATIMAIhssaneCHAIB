@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    color: white;
+    border: solid rebeccapurple 1px;
+}
+header{
+    background-image: url(/assets/image-header.png);
+    background-size: cover;
+    height: 100vh
+}
+.Nhero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    padding: 0 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+     gap: 1em; 
+    font-size: 18px;
+    font-family: monospace;
+
+}
+nav a{
+    text-decoration: none;
+}
+.hero-content{
+     display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    font-size: 160px;
+    line-height: 1;
+    font-weight: 300;
+    span {
+        font-size: 53px;
+        font-style: medium;
+    }
+}
+.phero{
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    font-style: bold;
+    font-size: 28px;
+}
+.btn1{
+    padding: 10px;
+}
+
+
