@@ -1,18 +1,21 @@
 *{
     margin: 0px;
     color: white;
-    border: solid rebeccapurple 1px;
+    /* border: solid rebeccapurple 1px; */
+    text-decoration: none;
 }
 header{
     background-image: url(/assets/image-header.png);
+    background-position: center;
     background-size: cover;
-    height: 100vh
+    min-height: 100vh;
+    width: 100%;
 }
 .Nhero{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 20%;
+    height: 20vh;
     padding: 0 20px;
 }
 nav{
@@ -28,15 +31,17 @@ nav a{
 }
 .hero-content{
      display: flex;
-    height: 80%;
+    height: 80vh;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 h1{
     display: flex;
     flex-direction: column;
     font-family: "DM Sans", sans-serif;
-    font-size: 160px;
+    
+    font-size: 110px;
     line-height: 1;
     font-weight: 300;
     span {
@@ -49,10 +54,56 @@ h1{
     flex-direction: column;
     font-family: "DM Sans", sans-serif;
     font-style: bold;
-    font-size: 28px;
+    font-size: 20px;
+}
+.btndivh{
+    height: 45px;
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
 }
 .btn1{
-    padding: 10px;
+    padding: 10px 30px;
+    background-color: black;
+    border-radius: 7px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
 }
+.btn2{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    font-family: "DM Sans", sans-serif;
+}
+.divhero{
+    margin-top: 71px;
+}
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* width: 100%; */
 
+}
+.Smain1{
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    flex-direction: column;
+    height:80vh ;
+    justify-content: center;
+    padding: 0px 300px
+
+}
+.IMGSECT{
+    display: flex;
+
+}
+.IMGSEUL{
+        max-width: 100%;
+    height: auto
+}
 
